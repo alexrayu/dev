@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains hooks for the dev module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function dev_theme($existing, $type, $theme, $path) {
+  return [
+    'dev_profileblock' => [
+      'variables' => [
+        'content' => NULL,
+        'profile_data' => NULL,
+      ],
+      'template' => 'dev-profileblock',
+    ],
+  ];
+}

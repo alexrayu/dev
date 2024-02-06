@@ -1,0 +1,21 @@
+<div class="container">
+
+  {% if profile_data %}
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Pofile Data</h1>
+        {{ profile_data }}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if content %}
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Content</h1>
+      {{ content|raw }}
+    </div>
+  </div>
+  {% endif %}
+
+</div>

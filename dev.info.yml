@@ -1,5 +1,5 @@
 name: Dev Tools
 description: Misc dev and profile functionality.
-package: Custom
+package: Dev
 type: module
 core_version_requirement: ^9 || ^10

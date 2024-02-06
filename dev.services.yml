@@ -1,0 +1,4 @@
+services:
+  dev.perf:
+    class: Drupal\dev\DevPerf
+    arguments: ['@entity_type.manager', '@database', '@renderer', '@plugin.manager.block']

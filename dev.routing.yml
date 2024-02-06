@@ -1,0 +1,7 @@
+dev.perf:
+  path: '/dev/perf'
+  defaults:
+    _title: 'Perf Testing'
+    _controller: '\Drupal\dev\Controller\DevPerfController::build'
+  requirements:
+    _permission: 'access content'
